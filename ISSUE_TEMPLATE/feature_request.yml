@@ -1,0 +1,48 @@
+name: ✨ Feature Request
+description: Eine neue Funktion oder Verbesserung vorschlagen
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Betroffenes Repository
+      options:
+        - slam-app (Flutter)
+        - slam-backend (API)
+        - slam-teacher (Dashboard)
+        - slam-docs (Dokumentation)
+        - Übergreifend / Alle
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem löst dieses Feature?
+      placeholder: Ich bin frustriert, wenn...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Gewünschte Lösung
+      description: Beschreibe, wie du dir das Feature vorstellst
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Hast du andere Lösungsansätze in Betracht gezogen?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorität
+      options:
+        - Niedrig – Nice to have
+        - Mittel – Würde die App verbessern
+        - Hoch – Wichtig für den Lernfortschritt

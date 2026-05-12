@@ -1,0 +1,59 @@
+name: 🐛 Bug Report
+description: Einen Fehler im SLAM-Projekt melden
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Betroffenes Repository
+      options:
+        - slam-app (Flutter)
+        - slam-backend (API)
+        - slam-teacher (Dashboard)
+        - slam-docs (Dokumentation)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Fehlerbeschreibung
+      description: Was ist passiert? Was hast du erwartet?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. Öffne die App
+        2. Tippe auf ...
+        3. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: App-Version / Branch
+      placeholder: z.B. v1.0.0 oder main
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Plattform (falls slam-app)
+      multiple: true
+      options:
+        - iOS
+        - Android
+        - Web (Chrome)
+        - Web (Firefox)
+        - Web (Safari)
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Füge relevante Fehlermeldungen oder Screenshots ein
