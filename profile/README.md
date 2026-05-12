@@ -5,11 +5,9 @@
   <img alt="SLAM – Smart Learning App for Mathematics" src="https://raw.githubusercontent.com/Seminarkurs-Lernapp-Mathematik/.github/main/assets/banner-light.svg" width="100%">
 </picture>
 
-# 🧠 SLAM — Smart Learning App for Mathematics
+# 🧠 SLAM — Seminarkurs Lernapp Mathematik
 
 **KI-gestützte Mathematik-Lernplattform für die gymnasiale Oberstufe**
-
-*Entwickelt als Seminarkurs-Projekt am MVL-Gymnasium*
 
 <br/>
 
@@ -219,7 +217,5 @@ Entwickelt von Schülerinnen und Schülern des MVL-Gymnasiums im Rahmen des **Se
 ---
 
 <div align="center">
-
-*Made with ❤️ and a lot of ∫ dx at MVL-Gymnasium*
 
 </div>
