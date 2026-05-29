@@ -1,10 +1,5 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seminarkurs-Lernapp-Mathematik/.github/main/assets/banner-dark.svg">
-  <img alt="SLAM – Seminarkurs Lernapp Mathematik" src="https://raw.githubusercontent.com/Seminarkurs-Lernapp-Mathematik/.github/main/assets/banner-light.svg" width="100%">
-</picture>
-
 # 🧠 SLAM — Seminarkurs Lernapp Mathematik
 
 **KI-gestützte Mathematik-Lernplattform für die gymnasiale Oberstufe**
